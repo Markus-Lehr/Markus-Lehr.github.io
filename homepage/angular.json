@@ -128,7 +128,9 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "cname": "www.markus-lehr.at"
+          }
         }
       }
     }
